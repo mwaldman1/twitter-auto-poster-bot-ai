@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate a intersting Twitter post reporting the top news in Google tranding news and add a relative picture from Google image";
+    "generate a intersting Twitter post reporting the top news in Google tranding news with at least 200 chreacters and add a relative picture from Google image";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
